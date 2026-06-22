@@ -1,0 +1,133 @@
+/* ============================================================
+   Loaders, Skeletons, States
+   ============================================================ */
+
+/* --- Page loader ------------------------------------------- */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  background: var(--color-surface);
+}
+
+.page-loader__mark {
+  font-size: 2rem;
+  color: var(--color-dune-dk);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1;   transform: scale(1);    }
+  50%       { opacity: 0.4; transform: scale(0.85); }
+}
+
+.page-loader__bar {
+  width: 120px;
+  height: 2px;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.page-loader__progress {
+  height: 100%;
+  background: var(--color-dune-dk);
+  border-radius: var(--radius-full);
+  animation: load-bar 1.4s var(--ease-in-out) infinite;
+}
+
+@keyframes load-bar {
+  0%   { width: 0%;   margin-left: 0%; }
+  50%  { width: 60%;  margin-left: 20%; }
+  100% { width: 0%;   margin-left: 100%; }
+}
+
+/* --- Inline spinner ---------------------------------------- */
+.spinner {
+  animation: spin 0.8s linear infinite;
+  color: currentColor;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg);   }
+  to   { transform: rotate(360deg); }
+}
+
+/* --- Card skeleton ----------------------------------------- */
+.card-skeleton {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.card-skeleton__img {
+  aspect-ratio: 3 / 4;
+  width: 100%;
+}
+
+.card-skeleton__body {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.card-skeleton__line {
+  height: 14px;
+  border-radius: var(--radius-sm);
+}
+
+/* --- Product grid layout (shared) -------------------------- */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-6);
+}
+
+@media (max-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+}
+
+@media (max-width: 480px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+}
+
+/* --- Error / empty state ----------------------------------- */
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-20) var(--space-6);
+  gap: var(--space-4);
+}
+
+.error-state__icon {
+  font-size: 2.5rem;
+  color: var(--color-dune-dk);
+  margin-bottom: var(--space-2);
+}
+
+.error-state__title {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  font-weight: 400;
+  color: var(--color-ink);
+}
+
+.error-state__message {
+  font-size: var(--text-base);
+  color: var(--color-muted);
+  max-width: 380px;
+  line-height: 1.7;
+}
