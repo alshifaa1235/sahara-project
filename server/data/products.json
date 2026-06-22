@@ -1,0 +1,318 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Desert Wind Linen Shirt",
+      "price": 128,
+      "originalPrice": 160,
+      "category": "Clothing",
+      "brand": "Sahara Origin",
+      "rating": 4.8,
+      "reviews": 142,
+      "stock": 24,
+      "featured": true,
+      "new": false,
+      "sale": true,
+      "description": "Crafted from 100% premium Egyptian linen, this shirt breathes with the ease of an open dune. A relaxed silhouette with mother-of-pearl buttons and a subtle sand-wash finish make it equally suited to coastal dinners or city afternoons.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4c7d?w=800&q=80"
+      ],
+      "tags": ["linen", "summer", "casual", "breathable"],
+      "specs": {
+        "Material": "100% Egyptian Linen",
+        "Fit": "Relaxed",
+        "Care": "Hand wash cold",
+        "Origin": "Egypt"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Nomad Leather Tote",
+      "price": 245,
+      "originalPrice": 245,
+      "category": "Accessories",
+      "brand": "Caravan Co.",
+      "rating": 4.9,
+      "reviews": 89,
+      "stock": 12,
+      "featured": true,
+      "new": true,
+      "sale": false,
+      "description": "Full-grain vegetable-tanned leather that develops a rich patina unique to its owner. Spacious main compartment, interior zip pocket, and an adjustable shoulder strap. Built to carry everything you need and outlast wherever you go.",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80"
+      ],
+      "tags": ["leather", "tote", "everyday", "handcrafted"],
+      "specs": {
+        "Material": "Full-grain leather",
+        "Dimensions": "40 × 30 × 12 cm",
+        "Strap Drop": "Adjustable 50–60 cm",
+        "Lining": "Suede"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dune Runner Sneakers",
+      "price": 189,
+      "originalPrice": 189,
+      "category": "Footwear",
+      "brand": "SandStep",
+      "rating": 4.7,
+      "reviews": 213,
+      "stock": 36,
+      "featured": true,
+      "new": false,
+      "sale": false,
+      "description": "A minimalist silhouette with maximum comfort. The Dune Runner features a recycled canvas upper, natural rubber sole, and memory foam insole. Zero-dye pigments keep the palette earthy and timeless.",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80"
+      ],
+      "tags": ["sneakers", "sustainable", "minimalist", "comfort"],
+      "specs": {
+        "Upper": "Recycled canvas",
+        "Sole": "Natural rubber",
+        "Insole": "Memory foam",
+        "Sizes": "36–47"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Amber Resin Diffuser Set",
+      "price": 78,
+      "originalPrice": 98,
+      "category": "Home",
+      "brand": "Oasis Living",
+      "rating": 4.6,
+      "reviews": 57,
+      "stock": 18,
+      "featured": false,
+      "new": false,
+      "sale": true,
+      "description": "Hand-poured amber glass diffuser with three signature scent oils — Oud & Sandalwood, Desert Rose, and Cedarwood Spice. Fills any room with warmth that lasts up to 90 days.",
+      "images": [
+        "https://images.unsplash.com/photo-1602928321679-560bb453f190?w=800&q=80",
+        "https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=800&q=80"
+      ],
+      "tags": ["home", "fragrance", "wellness", "gifting"],
+      "specs": {
+        "Volume": "200ml",
+        "Duration": "Up to 90 days",
+        "Glass": "Hand-blown amber",
+        "Includes": "3 scent oils + 8 reeds"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Sirocco Merino Sweater",
+      "price": 165,
+      "originalPrice": 165,
+      "category": "Clothing",
+      "brand": "Sahara Origin",
+      "rating": 4.9,
+      "reviews": 74,
+      "stock": 15,
+      "featured": false,
+      "new": true,
+      "sale": false,
+      "description": "Superfine 18.5-micron Merino wool in an oversized crew neck. Temperature-regulating and naturally odour-resistant — the only sweater you need from the high desert to the city.",
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80"
+      ],
+      "tags": ["merino", "wool", "oversized", "winter"],
+      "specs": {
+        "Material": "100% Merino Wool",
+        "Micron": "18.5",
+        "Fit": "Oversized",
+        "Care": "Dry clean"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Oasis Ceramic Mug Set",
+      "price": 64,
+      "originalPrice": 64,
+      "category": "Home",
+      "brand": "Oasis Living",
+      "rating": 4.5,
+      "reviews": 128,
+      "stock": 42,
+      "featured": false,
+      "new": false,
+      "sale": false,
+      "description": "Set of two hand-thrown ceramic mugs in a warm terracotta glaze. Each piece is unique — slight variations in form and colour are a mark of authenticity. Dishwasher safe, microwave safe, and endlessly beautiful.",
+      "images": [
+        "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80",
+        "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=800&q=80"
+      ],
+      "tags": ["ceramic", "kitchen", "handmade", "gifting"],
+      "specs": {
+        "Capacity": "340ml each",
+        "Set of": "2",
+        "Glaze": "Terracotta",
+        "Safe": "Dishwasher & microwave"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Suntrack Polarized Sunglasses",
+      "price": 118,
+      "originalPrice": 148,
+      "category": "Accessories",
+      "brand": "Caravan Co.",
+      "rating": 4.7,
+      "reviews": 196,
+      "stock": 29,
+      "featured": false,
+      "new": false,
+      "sale": true,
+      "description": "Acetate frames in a classic rounded silhouette. Polarized CR-39 lenses with UV400 protection cut desert glare without flattening the landscape. Spring hinges and lightweight build for all-day wear.",
+      "images": [
+        "https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=800&q=80",
+        "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=800&q=80"
+      ],
+      "tags": ["sunglasses", "summer", "UV protection", "polarized"],
+      "specs": {
+        "Frame": "Acetate",
+        "Lenses": "CR-39 Polarized",
+        "Protection": "UV400",
+        "Weight": "21g"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Mirage Canvas Backpack",
+      "price": 172,
+      "originalPrice": 172,
+      "category": "Accessories",
+      "brand": "Caravan Co.",
+      "rating": 4.8,
+      "reviews": 103,
+      "stock": 8,
+      "featured": true,
+      "new": false,
+      "sale": false,
+      "description": "Waxed cotton canvas with leather base reinforcement. The Mirage holds a 15\" laptop, has a hidden rear security pocket, and features an ergonomic padded harness system. Adventure-ready from day one.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80"
+      ],
+      "tags": ["backpack", "travel", "laptop", "waxed canvas"],
+      "specs": {
+        "Capacity": "22L",
+        "Material": "Waxed cotton canvas",
+        "Laptop": "Up to 15\"",
+        "Pockets": "6"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Terra Sandals",
+      "price": 94,
+      "originalPrice": 115,
+      "category": "Footwear",
+      "brand": "SandStep",
+      "rating": 4.6,
+      "reviews": 88,
+      "stock": 20,
+      "featured": false,
+      "new": false,
+      "sale": true,
+      "description": "Handcrafted in Morocco with full-grain leather straps and a cork-latex footbed that contours to your foot over time. Open-toe silhouette perfect for warm cobblestones or sandy shores.",
+      "images": [
+        "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800&q=80",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80"
+      ],
+      "tags": ["sandals", "summer", "handcrafted", "leather"],
+      "specs": {
+        "Upper": "Full-grain leather",
+        "Footbed": "Cork-latex",
+        "Origin": "Morocco",
+        "Sizes": "35–46"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Haze Linen Trousers",
+      "price": 112,
+      "originalPrice": 112,
+      "category": "Clothing",
+      "brand": "Sahara Origin",
+      "rating": 4.7,
+      "reviews": 61,
+      "stock": 22,
+      "featured": false,
+      "new": true,
+      "sale": false,
+      "description": "Wide-leg linen trousers with a high, elasticated waist and two deep side pockets. Cut from stonewashed Belgian linen in a range of muted sand tones. Relaxed enough for a hammock, refined enough for a rooftop.",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4c7d?w=800&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80"
+      ],
+      "tags": ["linen", "wide-leg", "summer", "casual"],
+      "specs": {
+        "Material": "100% Belgian Linen",
+        "Fit": "Wide-leg",
+        "Waist": "Elasticated",
+        "Care": "Machine wash cold"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Solstice Scented Candle",
+      "price": 42,
+      "originalPrice": 42,
+      "category": "Home",
+      "brand": "Oasis Living",
+      "rating": 4.8,
+      "reviews": 234,
+      "stock": 55,
+      "featured": false,
+      "new": false,
+      "sale": false,
+      "description": "A large format candle hand-poured in small batches with coconut-soy wax and a cotton wick. The Solstice blend layers bergamot, smoky patchouli, and white musk for an atmosphere that lingers.",
+      "images": [
+        "https://images.unsplash.com/photo-1608181831718-c9fba9ba04df?w=800&q=80",
+        "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?w=800&q=80"
+      ],
+      "tags": ["candle", "fragrance", "home", "gifting"],
+      "specs": {
+        "Weight": "350g",
+        "Wax": "Coconut-soy blend",
+        "Burn time": "65+ hours",
+        "Wick": "100% cotton"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Atlas Wool Blanket",
+      "price": 195,
+      "originalPrice": 240,
+      "category": "Home",
+      "brand": "Oasis Living",
+      "rating": 4.9,
+      "reviews": 47,
+      "stock": 9,
+      "featured": true,
+      "new": false,
+      "sale": true,
+      "description": "Woven on traditional looms in the Atlas Mountains from undyed Berber wool. Each blanket carries a unique weave pattern passed down through generations. Thick enough for cold nights, lightweight enough to pack.",
+      "images": [
+        "https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?w=800&q=80",
+        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=80"
+      ],
+      "tags": ["blanket", "wool", "handwoven", "winter"],
+      "specs": {
+        "Material": "Undyed Berber wool",
+        "Dimensions": "150 × 200 cm",
+        "Weight": "1.4kg",
+        "Origin": "Atlas Mountains"
+      }
+    }
+  ],
+  "categories": ["Clothing", "Accessories", "Footwear", "Home"],
+  "brands": ["Sahara Origin", "Caravan Co.", "SandStep", "Oasis Living"]
+}
