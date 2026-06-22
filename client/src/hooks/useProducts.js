@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import useFetch from "./useFetch";
 
-const API = "/api/products";
+const API = "https://sahara-project-1.onrender.com/api/products"; 
 
 function buildQuery(params) {
   const q = new URLSearchParams();
